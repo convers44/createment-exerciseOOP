@@ -33,3 +33,5 @@ Make it possible to use equals on Car class
 
 Update the Car class add new method named isExpensive in a way that if the car price was more than
 50k the value is true otherwise false
+
+# Exercise 1.5 - Numeric List
