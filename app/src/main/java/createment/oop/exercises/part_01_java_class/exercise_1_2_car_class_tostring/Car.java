@@ -1,6 +1,4 @@
-package createment.oop.answers.part_01_java_class.exercise_1_1_car_class;
-
-import java.util.Objects;
+package createment.oop.exercises.part_01_java_class.exercise_1_2_car_class_tostring;
 
 public class Car {
 

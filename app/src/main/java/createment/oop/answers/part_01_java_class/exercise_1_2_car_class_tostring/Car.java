@@ -1,4 +1,4 @@
-package createment.oop.answers.part_01_java_class.exercise_1_1_car_class;
+package createment.oop.answers.part_01_java_class.exercise_1_2_car_class_tostring;
 
 import java.util.Objects;
 
@@ -32,4 +32,7 @@ public class Car {
         return price;
     }
 
+    public String toString() {
+        return String.format("#%d %s (%dKM, €%.2f)", getCaseNumber(), getName(), getMileage(), getPrice());
+    }
 }

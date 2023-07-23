@@ -14,3 +14,11 @@ Then write a code to define two objects from Car class and then print their info
 #1 BMW X3 2020 (10000KM, €15000.00)
 #2 Audi TT 2021 (5000KM, €12000.00)
 ```
+
+# Exercise 1.2 - Car class string
+
+Follow the instruction on App
+
+# Exercise 1.3 - Car class equals
+
+Follow the instruction on App

@@ -1,4 +1,4 @@
-package createment.oop.answers.part_01_java_class.exercise_1_1_car_class;
+package createment.oop.answers.part_01_java_class.exercise_1_3_car_class_equals;
 
 import java.util.Objects;
 
@@ -32,4 +32,13 @@ public class Car {
         return price;
     }
 
+    public boolean equals(Object o) {
+        if (o == null) return false;
+        Car other = (Car) o;
+        return other.caseNumber == this.caseNumber;
+    }
+
+    public int hashCode() {
+        return Objects.hash(caseNumber);
+    }
 }
