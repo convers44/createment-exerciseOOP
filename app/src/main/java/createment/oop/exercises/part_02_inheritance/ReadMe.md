@@ -10,3 +10,8 @@ The print format should be like the follow:
 
 Implement two classes of PetrolCar and ElectricCar, inherit the Car as the parent class. Electric cars need to
 have batteryCapacity and PetrolCar needs fuel tank capacity.
+
+# Exercise 2.2
+
+Consider we have a base class for Car. Implement two other classes for Electric and Hybrid cars. 
+While electric cars only have battery and hybrid cars have battery and fuel tank together.
