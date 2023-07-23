@@ -1,5 +1,6 @@
-package createment.oop.answers.part_01_java_class.exercise_1_1_car_class;
+package createment.oop.exercises.part_01_java_class.exercise_1_4_static;
 
+//TODO: Implement a method named isExpensive
 public class Car {
 
     private final int caseNumber;
@@ -29,5 +30,6 @@ public class Car {
     public double getPrice() {
         return price;
     }
+
 
 }

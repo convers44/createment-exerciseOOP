@@ -17,8 +17,19 @@ Then write a code to define two objects from Car class and then print their info
 
 # Exercise 1.2 - Car class string
 
-Follow the instruction on App
+Update the Car class in a way that application print the following message:
+
+```console
+#1 BMW (10000KM, €25000.00)
+#2 VW (5000KM, €15000.00)
+#3 Fiat (0KM, €15000.00)
+```
 
 # Exercise 1.3 - Car class equals
 
-Follow the instruction on App
+Make it possible to use equals on Car class
+
+# Exercise 1.4 - Car class
+
+Update the Car class add new method named isExpensive in a way that if the car price was more than
+50k the value is true otherwise false

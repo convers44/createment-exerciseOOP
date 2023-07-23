@@ -3,7 +3,7 @@ package createment.oop.exercises.part_01_java_class.exercise_1_2_car_class_tostr
 public class App {
 
     public static void main(String[] args) {
-        //TODO: Update the car class in a way the the following code print the following message
+        //TODO: Update the car class in a way the following code print the following message
         // #1 BMW (10000KM, €25000.00)
         // #2 VW (5000KM, €15000.00)
         // #3 Fiat (0KM, €15000.00)

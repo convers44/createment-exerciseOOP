@@ -1,6 +1,7 @@
-package createment.oop.answers.part_01_java_class.exercise_1_1_car_class;
+package createment.oop.answers.part_01_java_class.exercise_1_4_static;
 
 public class Car {
+    public static final double EXPENSIVE_PRICE = 50_000;
 
     private final int caseNumber;
     private final String name;
@@ -28,6 +29,10 @@ public class Car {
 
     public double getPrice() {
         return price;
+    }
+
+    public boolean isExpensive() {
+        return getPrice() >= EXPENSIVE_PRICE;
     }
 
 }
