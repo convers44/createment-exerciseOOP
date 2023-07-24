@@ -19,7 +19,7 @@ public class App {
     private static void sendMails(List<Customer> customerList) {
         for (Customer customer : customerList) {
             if (customer.address() != null)
-                System.out.printf("Mail to %s - %s, %s", customer.name(),
+                System.out.printf("Mail to %s - %s, %s", customer.username(),
                         customer.address().street(), customer.address().postCode());
 
         }

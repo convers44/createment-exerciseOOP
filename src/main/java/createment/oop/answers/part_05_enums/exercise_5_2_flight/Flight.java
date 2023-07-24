@@ -3,16 +3,16 @@ package createment.oop.answers.part_05_enums.exercise_5_2_flight;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PassengerManager {
+public class Flight {
 
-    private final List<Passenger> tickets;
+    private final List<Passenger> passengers;
 
-    public PassengerManager() {
-        this.tickets = new ArrayList<>();
+    public Flight() {
+        this.passengers = new ArrayList<>();
     }
 
     public void addTicket(Passenger ticket) {
-        this.tickets.add(ticket);
+        this.passengers.add(ticket);
     }
 
     public void printReport() {
@@ -36,7 +36,7 @@ public class PassengerManager {
 
     private int count(FlightClass flightClass) {
         int total = 0;
-        for (Passenger t : tickets) {
+        for (Passenger t : passengers) {
             if (t.flightClass() == flightClass)
                 total++;
         }
@@ -45,7 +45,7 @@ public class PassengerManager {
 
     private double totalLuggageWeight() {
         double total = 0;
-        for (Passenger t : tickets) {
+        for (Passenger t : passengers) {
             total += t.luggageWeight();
         }
         return total;
