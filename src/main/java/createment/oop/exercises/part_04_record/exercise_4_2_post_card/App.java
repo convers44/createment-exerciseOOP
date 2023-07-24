@@ -5,8 +5,8 @@ import java.util.List;
 
 public class App {
 
-    //TODO: Create records Customer and Address in a way that each Customer has an address
-    // Complete the sendMail method in the current class to print following message only for
+    //TODO: Convert existing Customer and Address class to record and
+    // implement the sendMail method in the current class to print following message only for
     // customers that have address
     // Mail to CustomerName - Street 10, 1234AB
     public static void main(String[] arg) {

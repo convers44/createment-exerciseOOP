@@ -37,3 +37,7 @@
 - Interface and multi implementation
 
 # Exercise 6.2 - Exercise
+
+# Sealed Class
+
+# Exercise - 7.1

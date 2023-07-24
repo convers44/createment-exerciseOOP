@@ -1,8 +1,8 @@
 package createment.oop.exercises.part_05_enums.exercise_5_2_flight;
 
-public class PassengerManager {
+public class Flight {
 
-    public void addTicket(Passenger ticket) {
+    public void addPassenger(Passenger passenger) {
         //TODO: Implement this function to add tickets
     }
 

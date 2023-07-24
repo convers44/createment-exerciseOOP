@@ -11,21 +11,13 @@ public class Flight {
         this.passengers = new ArrayList<>();
     }
 
-    public void addTicket(Passenger ticket) {
+    public void addPassenger(Passenger ticket) {
         this.passengers.add(ticket);
     }
 
     public void printReport() {
         System.out.println("Passenger Report:\n----------");
         printPassengerReport();
-
-        System.out.println();
-        System.out.println("Luggage Report:\n----------");
-        printLuggageReport();
-    }
-
-    private void printLuggageReport() {
-        System.out.println("Total luggage weight: " + totalLuggageWeight());
     }
 
     private void printPassengerReport() {
@@ -43,11 +35,4 @@ public class Flight {
         return total;
     }
 
-    private double totalLuggageWeight() {
-        double total = 0;
-        for (Passenger t : passengers) {
-            total += t.luggageWeight();
-        }
-        return total;
-    }
 }
