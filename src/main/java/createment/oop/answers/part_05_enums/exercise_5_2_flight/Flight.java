@@ -11,8 +11,8 @@ public class Flight {
         this.passengers = new ArrayList<>();
     }
 
-    public void addPassenger(Passenger ticket) {
-        this.passengers.add(ticket);
+    public void addPassenger(Passenger passenger) {
+        this.passengers.add(passenger);
     }
 
     public void printReport() {
@@ -21,7 +21,7 @@ public class Flight {
     }
 
     private void printPassengerReport() {
-        System.out.println("First Class: " + count(FlightClass.FIRST));
+        System.out.println("First Class: " + count(FlightClass.FIRST_CLASS));
         System.out.println("Business Class: " + count(FlightClass.BUSINESS));
         System.out.println("Economy Class: " + count(FlightClass.ECONOMY));
     }
