@@ -4,10 +4,10 @@ public class App {
 
     public static void main(String[] args) {
         Flight ticketManager = new Flight();
-        ticketManager.addTicket(new Passenger("A", FlightClass.ECONOMY, 25));
-        ticketManager.addTicket(new Passenger("B", FlightClass.ECONOMY, 20));
-        ticketManager.addTicket(new Passenger("C", FlightClass.ECONOMY, 28));
-        ticketManager.addTicket(new Passenger("D", FlightClass.BUSINESS, 25));
+        ticketManager.addPassenger(new Passenger("A", FlightClass.ECONOMY));
+        ticketManager.addPassenger(new Passenger("B", FlightClass.ECONOMY));
+        ticketManager.addPassenger(new Passenger("C", FlightClass.ECONOMY));
+        ticketManager.addPassenger(new Passenger("D", FlightClass.BUSINESS));
 
         ticketManager.printReport();
     }

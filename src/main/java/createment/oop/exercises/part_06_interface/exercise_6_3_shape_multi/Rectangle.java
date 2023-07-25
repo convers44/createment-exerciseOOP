@@ -1,4 +1,4 @@
-package createment.oop.answers.part_06_interface.exercise_6_3_shape_multi;
+package createment.oop.exercises.part_06_interface.exercise_6_3_shape_multi;
 
 public class Rectangle implements Shape {
 

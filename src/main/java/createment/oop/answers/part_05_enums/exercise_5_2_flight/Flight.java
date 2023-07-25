@@ -11,25 +11,17 @@ public class Flight {
         this.passengers = new ArrayList<>();
     }
 
-    public void addTicket(Passenger ticket) {
-        this.passengers.add(ticket);
+    public void addPassenger(Passenger passenger) {
+        this.passengers.add(passenger);
     }
 
     public void printReport() {
         System.out.println("Passenger Report:\n----------");
         printPassengerReport();
-
-        System.out.println();
-        System.out.println("Luggage Report:\n----------");
-        printLuggageReport();
-    }
-
-    private void printLuggageReport() {
-        System.out.println("Total luggage weight: " + totalLuggageWeight());
     }
 
     private void printPassengerReport() {
-        System.out.println("First Class: " + count(FlightClass.FIRST));
+        System.out.println("First Class: " + count(FlightClass.FIRST_CLASS));
         System.out.println("Business Class: " + count(FlightClass.BUSINESS));
         System.out.println("Economy Class: " + count(FlightClass.ECONOMY));
     }
@@ -43,11 +35,4 @@ public class Flight {
         return total;
     }
 
-    private double totalLuggageWeight() {
-        double total = 0;
-        for (Passenger t : passengers) {
-            total += t.luggageWeight();
-        }
-        return total;
-    }
 }
