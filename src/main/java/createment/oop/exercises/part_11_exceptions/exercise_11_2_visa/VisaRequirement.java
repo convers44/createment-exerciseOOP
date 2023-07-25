@@ -1,4 +1,4 @@
-package createment.oop.exercises.part_11_exceptions.exercise_11_2;
+package createment.oop.exercises.part_11_exceptions.exercise_11_2_visa;
 
 import java.util.ArrayList;
 import java.util.List;
