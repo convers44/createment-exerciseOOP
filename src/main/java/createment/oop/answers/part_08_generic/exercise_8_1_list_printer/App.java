@@ -1,9 +1,9 @@
-package createment.oop.answers.part_08_generic.exercise_8_1_display_board;
+package createment.oop.answers.part_08_generic.exercise_8_1_list_printer;
 
 public class App {
 
     public static void main(String[] args) {
-        DisplayBoard<String> stringBoard = new DisplayBoard<>();
+        ListPrinter<String> stringBoard = new ListPrinter<>();
 
         stringBoard.addNewItem("A");
         stringBoard.addNewItem("B");
@@ -12,7 +12,7 @@ public class App {
         stringBoard.printAll();
 
 
-        DisplayBoard<Integer> numericBoard = new DisplayBoard<>();
+        ListPrinter<Integer> numericBoard = new ListPrinter<>();
 
         numericBoard.addNewItem(10);
         numericBoard.addNewItem(12);
