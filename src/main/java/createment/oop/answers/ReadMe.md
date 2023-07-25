@@ -2,11 +2,12 @@
 
 - Null value as object property
 - Null value as object
-- Null and list
-- Null and Map
 - int vs Integer
 - Objects.requireNonNull
 - Use ChatGPT to map POJO to Record
+- Null and list
+- Null and Map
+- \n, \t
 
 # Exercise 4.2
 
@@ -21,9 +22,10 @@
 - Boolean types and enums()
 - foreach on enum values
 - name()
-- Define List contains enum value
 - isEquals on enum
 - capital letter on names
+
+- Define List contains enum value
 
 # Exercise 5.3
 

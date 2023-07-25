@@ -5,10 +5,6 @@ import java.util.List;
 
 public class App {
 
-    //TODO: Convert existing Customer and Address class to record and
-    // implement the sendMail method in the current class to print following message only for
-    // customers that have address
-    // Mail to CustomerName - Street 10, 1234AB
     public static void main(String[] arg) {
         Customer customerA = new Customer("Person A", new Address("Street 1", "1234AB"));
         Customer customerB = new Customer("Person B", null);
@@ -23,7 +19,12 @@ public class App {
     }
 
     private static void sendMails(List<Customer> customerList) {
-        //TODO: Write this method
+        for (Customer customer : customerList) {
+            if (customer.address() != null) {
+                System.out.printf("Mail to %s, on %s %s\n",
+                        customer.username(), customer.address().street(), customer.address().postCode());
+            }
+        }
     }
 
 }
