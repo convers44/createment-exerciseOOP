@@ -1,13 +1,14 @@
-package createment.oop.answers.part_08_generic.exercise_8_1_display_board;
+package createment.oop.answers.part_08_generic.exercise_8_1_list_printer;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-public class DisplayBoard<T> {
+public class ListPrinter<T> {
 
     private final List<T> data;
 
-    public DisplayBoard() {
+    public ListPrinter() {
         this.data = new ArrayList<>();
     }
 

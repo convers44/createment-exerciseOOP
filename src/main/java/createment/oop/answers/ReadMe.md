@@ -1,45 +1,29 @@
-# Exercise 4.3 - Null values
+# Annotation
 
-- Null value as object property
-- Null value as object
-- int vs Integer
-- Objects.requireNonNull
-- Use ChatGPT to map POJO to Record
-- Null and list
-- Null and Map
-- \n, \t
+- What are annotation
+- @Deprecated
+  - Support since
+- @Override
+  - If the base class changes
+- Using Hibernate
 
-# Exercise 4.2
+# Exception
 
-- How Java itself using inheritance
-    - Object
-- static method
-- String.format
+- Types of errors
+- What is exception
+- 
 
-# Exercise 5.1 - Explain
+# Generic
 
-- What is enum
-- Boolean types and enums()
-- foreach on enum values
-- name()
-- isEquals on enum
-- capital letter on names
+- Define Box class Box<String>
+- Define ListPrinter
 
-- Define List contains enum value
+# Sealed
 
-# Exercise 5.3
+# Game screenshot
 
-- Separate logic in different classes
+# Notes
 
-# Exercise 6.1 - Interface - Explain interface
+- Feedback
+- Lack of powerpoint?
 
-- Interface vs Abstract
-- Interface as List item
-- Interface with default method
-- Interface and multi implementation
-
-# Exercise 6.2 - Exercise
-
-# Sealed Class
-
-# Exercise - 7.1
